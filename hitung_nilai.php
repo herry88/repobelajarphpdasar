@@ -14,14 +14,14 @@ $na = (0.4 * $nilai_uts) + (0.6 * $nilai_uas);
 if($na >= 80){
     $indeks = 'A';
 } 
-else if(){
-
+else if($na >= 60){
+    $indeks = 'B';
 }
-elseif(){
-
+elseif($na >= 50){
+    $indeks = 'C';
 }
-elseif(){
-
+elseif($na >= 40){
+    $indeks = 'D';
 }
 else{
     echo "E";
